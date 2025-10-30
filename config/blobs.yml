@@ -4,13 +4,17 @@ clamav/check-0.15.2.tar.gz:
   sha: sha256:a8de4e0bacfb4d76dd1c618ded263523b53b85d92a146d8835eb1a52932fa20a
 clamav/clamav-1.5.1.tar.gz:
   size: 65638226
+  object_id: 6540694b-29d5-43d9-6641-a08d5c899635
   sha: sha256:64fe4a16a5622c1d71efe9ed7f2c2fbd37f8f237da9f11ff66b73038df71db91
 clamav/json-c-0.18-20240915.tar.gz:
   size: 401874
+  object_id: 03b3ad0e-8cb7-4054-7e55-ddf90d90f578
   sha: sha256:3112c1f25d39eca661fe3fc663431e130cc6e2f900c081738317fba49d29e298
 clamav/pcre2-10.47.tar.gz:
   size: 2792969
+  object_id: 74a38389-dd20-4304-46b8-f7a3a0409cd9
   sha: sha256:c08ae2388ef333e8403e670ad70c0a11f1eed021fd88308d7e02f596fcd9dc16
 clamav/rust-1.90.0-x86_64-unknown-linux-gnu.tar.xz:
   size: 202999512
+  object_id: dcf6115b-445a-4046-52d9-e388f0580d8f
   sha: sha256:bff8974f2d3ee6c0e6ac926b533f65bbdd3697d2c2b925bdae5f45b9eed10a67
