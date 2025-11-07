@@ -18,12 +18,12 @@ fi
 
 case "$1" in
 	'start_clamd')
-	  $PKG_LOC/sbin/clamd -c /var/vcap/jobs/clamav/conf/clamd.conf
+	  nice -n 19 $PKG_LOC/sbin/clamd -c /var/vcap/jobs/clamav/conf/clamd.conf
 	  sleep 1
 	;;
 	'start_freshclam')
 		sleep 20
-	  $PKG_LOC/bin/freshclam -d --config-file /var/vcap/jobs/clamav/conf/freshclam.conf
+	  nice -n 19 $PKG_LOC/bin/freshclam -d --config-file /var/vcap/jobs/clamav/conf/freshclam.conf
 	;;
 	'start_clamavonaccess')
 		sleep 20
