@@ -27,7 +27,7 @@ releases:
   version: 1+dev.1
 stemcells:
 - alias: default
-  os: ubuntu-jammy
+  os: ubuntu-jammy-fips
   version: latest
 update:
   canaries: 2
